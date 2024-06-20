@@ -1,0 +1,169 @@
+*{
+    text-decoration: none;
+}
+h1{
+    border-radius: 10px;
+    margin-bottom: 3%;
+    text-align: center;
+padding-bottom: 2%;
+    padding-top: 2%;
+    height:50px;
+    width: 600px;
+    padding-bottom: 5%;
+}
+button{
+    color: white;
+    padding: 5px;
+    background-color: #4747c4;
+    border-radius: 10px;
+}
+button a{
+    color: white;
+}
+header{
+    align-items:center;
+margin-left: 5%;
+    display: flex;
+}
+header a{
+    padding: 5px;
+    border-radius: 10%;
+    background-color:rgba(255, 255, 255, 0.453);
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 1%;
+    color: black;
+}
+header p{
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    height: 34px;
+    background-color:rgba(255, 255, 255, 0.453);
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+}
+header .login{
+    align-items:center;
+    display: flex;
+    margin-left: 25%;
+}
+.tickets h1{
+    margin-left: 2%;
+color: black;
+}
+.tickets{
+    width: 800px;
+ padding-left: 3%;
+    background-color:rgba(255, 255, 255, 0.453);
+    display: grid 1, 2fr;
+    margin-top: 15%;
+    margin-left: 27%;
+    border-radius: 10px;
+}
+.tickets input{
+    border-radius: 6px;
+    text-align: center;
+    padding: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 30px;
+    width: 130px;
+}
+.tickets a{
+    text-decoration: none;
+}
+.bilets{
+    margin-left: 13%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 10%;
+    padding: 2%;
+    display: grid 4, 1fr;
+    width: 50%;
+    background-color: white;
+}
+.bilets button{
+margin-left: 35%;
+}
+.bilets p span{
+font-weight:700;
+margin-right: 5%;
+}
+h3{
+    margin: 5%;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    height: 300px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal input{
+    margin-left: 25%;
+    width: 300px;
+  }
+  .modal p{
+    margin-top: 2%;
+    margin-left: 25%;
+  }
+  .modal button{
+    margin-top: 5%;
+    margin-left: 75%;
+    width: 110px;
+  }
+  .electro{
+    padding: 2%;
+    border-radius: 5%;
+    width: 1200px;
+    margin-left: -40%;
+    background-color: white;
+    display: grid;
+  }
+  footer{
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    color: white;
+    margin-top: 30%;
+    height: 300px;
+    width: 110%;
+    background-color: #2b2b2b;
+padding: 2%;
+  }
+footer a{
+    text-decoration: none;
+    color: white;
+}

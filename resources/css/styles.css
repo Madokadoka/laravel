@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+}
+header{
+    align-items:center;
+margin-left: 5%;
+    display: flex;
+}
+header a{
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+}
+header p{
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+}
+header img{
+    margin-left: 25%
+}
+header .login{
+    align-items:center;
+    display: flex;
+    margin-left: 25%;
+}
+.tickets h1{
+    margin-left: 2%;
+color: black;
+}
+.tickets{
+    display: grid 1, 2fr;
+    margin-top: 15%;
+    margin-left: 20%;
+    
+}
+.tickets input{
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 25px;
+    width: 130px;
+}
